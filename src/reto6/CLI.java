@@ -17,7 +17,7 @@ public class CLI {
     private static String NivelMedio = "nivel medio.";
     private static String NivelDificil = "difícil.";
     private static String LetraExistente = "Ingrese una letra  ";
-    private static String Nonumeros= " no un número: ";
+    private static String Nonumeros= " no un número,: ";
     private static String LetrasAdivinadas = " la palabra adivinada es la siguiente manera: %s\n";
     private static String volverajugar = "¿Desea seguir jugando?\nCualquier letra) Sí.\n0) No\n ";
     private static String fin= "Programa finalizado.";
