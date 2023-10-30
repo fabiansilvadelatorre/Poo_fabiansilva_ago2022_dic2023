@@ -4,6 +4,9 @@ import reto1.process;
 
 import java.util.Scanner;
 
+/**
+ * crea un menu para mostrar en consola
+ */
 public class CLI  {
     public static void mostrarMenu(){
         System.out.println("que operacion deseas hacer?");
@@ -11,7 +14,9 @@ public class CLI  {
         System.out.println("2)resta");
         System.out.println("3)multiplicacion");
         System.out.println("4)division");
-
+/**
+ * define variables para pedircelas  al usuario
+ */
         Scanner scanner = new Scanner(System.in);
 
         int option = scanner.nextInt();scanner.nextLine();
@@ -22,7 +27,9 @@ public class CLI  {
         int operando2 =  scanner.nextInt();scanner.nextLine();
         int resultado=-1;
         String operacion ="";
-
+/**
+ * dependiendo de el caso elegido crea  su respectivo resultado  mostrando un mensaje en consola
+ */
         switch(option) {
             case 1:
                 resultado =
