@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 public class Main {
     /**
-     * Interfaz para definir operaciones aritméticas.
+     * Interfaz para definir operaciones aritméticas..
      */
     interface Operacion {
         double calcular(double a, double b);
